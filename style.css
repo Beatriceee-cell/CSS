@@ -1,0 +1,46 @@
+form {
+    width: 400px;
+    height: auto;
+    background-color: rgb(221, 234, 238);
+    border: 1px solid rgb(45, 121, 146);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form div input {
+    width: 300px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(158, 134, 134);
+    padding: 10px;
+    margin-bottom: 5px;
+    outline: 0
+}
+
+button{
+    border-radius: 10px;
+    background: local;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(41, 10, 61);
+    border: 0;
+    color: white;
+    align-items: center;
+    margin-top: 10px;
+    margin: 40px;
+}
+
+form button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: underline;
+    border: 1px solid black;
+    cursor: pointer;
+}
